@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "rjjICzy6AxNHdo2/EAEvz63vE5uVu/UhIhdnDoThMbk805fMsLhMgsBCXy5kryAjZVa2PAeWXUYoSm++CZx4gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KEVIN\\Documents\\PROJECTS\\docker\\App2\\DotNet.Docker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KEVIN\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\KEVIN\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\KEVIN\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\KEVIN\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://teamcity.number8.com/httpAuth/app/nuget/feed/Number8/Releases/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
