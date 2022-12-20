@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e9a8e1cb-9adb-47c1-b940-7b2481c546da" name="KEVIN@TK11-PC 2022-12-20 02:34:47" runUser="tk11-pc\KEVIN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-12-20T02:34:47.2427699-04:00" queuing="2022-12-20T02:34:47.2427703-04:00" start="2022-12-20T02:34:34.4118852-04:00" finish="2022-12-20T02:34:47.3040212-04:00" />
+  <TestSettings name="default" id="e27a5280-cd85-4a84-a59e-0cd98d5f4679">
+    <Deployment runDeploymentRoot="KEVIN_TK11-PC_2022-12-20_02_34_47" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d8f31613-c4e7-4bbd-9f67-e63d3ff72067" testId="36d18f11-eda9-7cc0-547a-696b097944fb" testName="Test3" computerName="TK11-PC" duration="00:00:00.0001520" startTime="2022-12-20T02:34:46.6586071-04:00" endTime="2022-12-20T02:34:46.6587589-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8f31613-c4e7-4bbd-9f67-e63d3ff72067" />
+    <UnitTestResult executionId="22e65650-dcd4-4625-b00e-729ec3d44e74" testId="e9ac27d2-89cb-8ec0-ef6c-851c38c83bf6" testName="Test2" computerName="TK11-PC" duration="00:00:01.0246950" startTime="2022-12-20T02:34:45.6337113-04:00" endTime="2022-12-20T02:34:46.6584058-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22e65650-dcd4-4625-b00e-729ec3d44e74">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 1&#xD;
+  But was:  2&#xD;
+</Message>
+          <StackTrace>   at DotNet.Docker.Class1.Test2() in C:\Users\KEVIN\Documents\PROJECTS\docker\App2\Class1.cs:line 17&#xD;
+
+1)    at DotNet.Docker.Class1.Test2() in C:\Users\KEVIN\Documents\PROJECTS\docker\App2\Class1.cs:line 17&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="951a69cf-7caf-43c5-b047-de5a7b1a6c21" testId="a3275fc3-df7e-6b1c-5adb-be6d5e9270c1" testName="Test5" computerName="TK11-PC" duration="00:00:00.0019830" startTime="2022-12-20T02:34:46.6622293-04:00" endTime="2022-12-20T02:34:46.6642122-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="951a69cf-7caf-43c5-b047-de5a7b1a6c21">
+      <Output>
+        <ErrorInfo>
+          <Message>  Expected: 1&#xD;
+  But was:  2&#xD;
+</Message>
+          <StackTrace>   at DotNet.Docker.Class2.Test5() in C:\Users\KEVIN\Documents\PROJECTS\docker\App2\Class2.cs:line 17&#xD;
+
+1)    at DotNet.Docker.Class2.Test5() in C:\Users\KEVIN\Documents\PROJECTS\docker\App2\Class2.cs:line 17&#xD;
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1189ba21-81d5-4fc2-82e6-e1d0d9622dfe" testId="06a7b893-2def-03f3-ca3e-496843f30854" testName="Test1" computerName="TK11-PC" duration="00:00:00.0131420" startTime="2022-12-20T02:34:45.6185193-04:00" endTime="2022-12-20T02:34:45.6315286-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1189ba21-81d5-4fc2-82e6-e1d0d9622dfe" />
+    <UnitTestResult executionId="f49564fc-62bf-4965-a55f-5af50c4e25d9" testId="45a55733-c61a-0360-0588-a958326fda60" testName="Test4" computerName="TK11-PC" duration="00:00:00.0001130" startTime="2022-12-20T02:34:46.6620979-04:00" endTime="2022-12-20T02:34:46.6622111-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f49564fc-62bf-4965-a55f-5af50c4e25d9" />
+    <UnitTestResult executionId="36945511-d66b-4173-9c81-6ff7d19095d4" testId="f208233b-2bd3-86a9-3916-c4a9298a5f7c" testName="Test6" computerName="TK11-PC" duration="00:00:00.0001620" startTime="2022-12-20T02:34:46.6642349-04:00" endTime="2022-12-20T02:34:46.6643966-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36945511-d66b-4173-9c81-6ff7d19095d4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test6" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="f208233b-2bd3-86a9-3916-c4a9298a5f7c">
+      <Execution id="36945511-d66b-4173-9c81-6ff7d19095d4" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class2" name="Test6" />
+    </UnitTest>
+    <UnitTest name="Test4" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="45a55733-c61a-0360-0588-a958326fda60">
+      <Execution id="f49564fc-62bf-4965-a55f-5af50c4e25d9" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class2" name="Test4" />
+    </UnitTest>
+    <UnitTest name="Test5" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="a3275fc3-df7e-6b1c-5adb-be6d5e9270c1">
+      <Execution id="951a69cf-7caf-43c5-b047-de5a7b1a6c21" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class2" name="Test5" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="06a7b893-2def-03f3-ca3e-496843f30854">
+      <Execution id="1189ba21-81d5-4fc2-82e6-e1d0d9622dfe" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class1" name="Test1" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="e9ac27d2-89cb-8ec0-ef6c-851c38c83bf6">
+      <Execution id="22e65650-dcd4-4625-b00e-729ec3d44e74" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class1" name="Test2" />
+    </UnitTest>
+    <UnitTest name="Test3" storage="c:\users\kevin\documents\projects\docker\app2\./bin/debug/net6.0/dotnet.docker.dll" id="36d18f11-eda9-7cc0-547a-696b097944fb">
+      <Execution id="d8f31613-c4e7-4bbd-9f67-e63d3ff72067" />
+      <TestMethod codeBase="C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll" adapterTypeName="executor://nunit3testexecutor/" className="DotNet.Docker.Class1" name="Test3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="36d18f11-eda9-7cc0-547a-696b097944fb" executionId="d8f31613-c4e7-4bbd-9f67-e63d3ff72067" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9ac27d2-89cb-8ec0-ef6c-851c38c83bf6" executionId="22e65650-dcd4-4625-b00e-729ec3d44e74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3275fc3-df7e-6b1c-5adb-be6d5e9270c1" executionId="951a69cf-7caf-43c5-b047-de5a7b1a6c21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06a7b893-2def-03f3-ca3e-496843f30854" executionId="1189ba21-81d5-4fc2-82e6-e1d0d9622dfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45a55733-c61a-0360-0588-a958326fda60" executionId="f49564fc-62bf-4965-a55f-5af50c4e25d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f208233b-2bd3-86a9-3916-c4a9298a5f7c" executionId="36945511-d66b-4173-9c81-6ff7d19095d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.3.1.0: Test execution started&#xD;
+Running all tests in C:\Users\KEVIN\Documents\PROJECTS\docker\App2\./bin/Debug/net6.0/DotNet.Docker.dll&#xD;
+   NUnit3TestExecutor discovered 6 of 6 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.3.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
